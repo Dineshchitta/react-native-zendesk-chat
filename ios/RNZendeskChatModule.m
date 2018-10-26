@@ -48,4 +48,9 @@ RCT_EXPORT_METHOD(startChat:(NSDictionary *)options) {
   });
 }
 
+
+RCT_EXPORT_METHOD(endChat) {
+    [ZDCChat endChat];
+}
+
 @end
