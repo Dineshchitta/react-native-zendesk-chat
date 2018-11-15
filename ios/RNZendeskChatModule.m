@@ -50,7 +50,9 @@ RCT_EXPORT_METHOD(startChat:(NSDictionary *)options) {
 
 
 RCT_EXPORT_METHOD(endChat) {
+  dispatch_sync(dispatch_get_main_queue(), ^{
     [ZDCChat endChat];
+  });
 }
 
 @end
