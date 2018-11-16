@@ -56,6 +56,7 @@ public class RNZendeskChatModule extends ReactContextBaseJavaModule {
         setVisitorInfo(options);
         Activity activity = getCurrentActivity();
         if (activity != null) {
+            ChatWidgetService.disable();
             activity.startActivity(new Intent(mReactContext, ZopimChatActivity.class));
         }
     }
