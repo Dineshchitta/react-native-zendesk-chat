@@ -11,6 +11,7 @@ import com.facebook.react.bridge.ReadableMap;
 import com.zopim.android.sdk.api.ZopimChat;
 import com.zopim.android.sdk.model.VisitorInfo;
 import com.zopim.android.sdk.prechat.ZopimChatActivity;
+import com.zopim.android.sdk.widget.ChatWidgetService;
 
 import java.lang.String;
 
